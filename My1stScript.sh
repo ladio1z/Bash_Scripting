@@ -1,5 +1,7 @@
 #! /bin/bash
 
+echo
+echo " ################################### "
 echo " Welcome to Bash Scripting "
 echo
 echo " ################################### "
