@@ -18,3 +18,18 @@ df -h
 echo
 echo " ################################### "
 
+# $(Command)  Return the result of command and assign to the variable
+# backticks  `command ` can also be used to return the outcome of a command
+CURRENT_USER = $(whoami)
+
+echo $CURRENT_USER
+echo
+echo " ################################### "
+
+
+SKILL = " Learning DevOps " 
+
+echo $SKILL 
+echo
+echo " ################################### "
+
